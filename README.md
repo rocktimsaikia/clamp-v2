@@ -13,11 +13,11 @@ pnpm add clamp-v2
 ## Usage
 
 ```javascript
-import clamp from 'clamp-v2';
+import clamp from "clamp-v2";
 
-clamp(1, 5, 10) // => 5
-clamp(20, 5, 10) // => 10
-clamp(8, 5, 10) // => 8
+clamp(1, 5, 10); // => 5
+clamp(20, 5, 10); // => 10
+clamp(8, 5, 10); // => 8
 ```
 
 ## API
@@ -29,14 +29,16 @@ Clamp a number between two given minimum and maximum bound.
 #### Parameters:
 
 ##### 1. `value`
+
 > Type: `number` \
-The number to be clamped.
+> The number to be clamped.
 
 ##### 2. `min`
+
 > Type: `number` \
-The minimum bound.
+> The minimum bound.
 
 #### 3. `max`
-> Type: `number` \
-The maximum bound.
 
+> Type: `number` \
+> The maximum bound.
