@@ -2,12 +2,7 @@
 	"name": "clamp-v2",
 	"version": "0.0.2",
 	"description": "Clamp a value between two bounds",
-	"keywords": [
-		"clamp",
-		"clamp-v2",
-		"min",
-		"max"
-	],
+	"keywords": ["clamp", "clamp-v2", "min", "max"],
 	"repository": "rocktimsaikia/clamp-v2",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
@@ -19,12 +14,11 @@
 	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "tsup",
-		"test": "vitest"
+		"test": "vitest",
+		"release": "pnpm build && np"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
@@ -38,13 +32,8 @@
 		"node": ">=18"
 	},
 	"tsup": {
-		"entry": [
-			"src/index.ts"
-		],
-		"format": [
-			"cjs",
-			"esm"
-		],
+		"entry": ["src/index.ts"],
+		"format": ["cjs", "esm"],
 		"minify": true,
 		"clean": true,
 		"dts": true
