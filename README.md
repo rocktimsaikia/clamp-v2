@@ -4,7 +4,7 @@ Clamp a value between two bounds.
 
 [![CI](https://github.com/rocktimsaikia/clamp-v2/actions/workflows/main.yml/badge.svg)](https://github.com/rocktimsaikia/clamp-v2/actions/workflows/main.yml) [![npm](https://img.shields.io/npm/v/clamp-v2?color=bright)](https://npmjs.com/package/clamp-v2)
 
-## Installtion
+## Installation
 
 ```sh
 pnpm add clamp-v2
